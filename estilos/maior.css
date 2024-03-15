@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width:850px) {
+    :root{
+        --cor-fundo: #f3e5d8;
+        --cor-h1: #312f30;
+        --cor-h2: #7E4431;
+        --cor-preparation: #792948;
+        --cor-texto: #5f5c57;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main> section{
+        margin: auto;
+        width: 800px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    body{
+        background-color: var(--cor-fundo);
+    }    
+}
